@@ -6,3 +6,6 @@ FUNCIONAMIENTO
 3. Crear base de datos con el nombre de pruebaprimestone esto en mysql y postgres.
 4. Migrar el modelo (python3 manage.py makemigrations) despues (python3 manage.py migrate)
 5. Para el modelo People que se creo se puede realizar el crud completo.
+6. Falto hacer la conversion de la estatura de la persona e implementar la función de números primos.
+
+MUCHAS GRACIAS...
