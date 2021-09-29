@@ -1,7 +1,8 @@
 # Prueba-PrimeStone-Jr
 Prueba primestone
-
-1. Se crea un modelo para el almacenamiento de datos en la DB para los endpoint solicitados, se usó serializadores que nos ofrece django restframework lo cual nos permite que las estructuras complejas en y los modelos de nuestro proyecto en django se conviertan a estructuras nativas de python y se conviertan facilmente a formato JSON.
-2. Se creo un archivo de rutas dentro de la app (ApiRest) donde se crean todas las urls para realizar las diferentes consultas.
-3. Para la vista de  se pueden consultar todos los clientes de la bd, tambien consultar por id, por nombre y por apellido.
-
+FUNCIONAMIENTO
+1. Crear y Activar entorno virtual
+2. Tener un gestor de bases de datos como mysql(instalar mysqlclient), postgres o sino por defecto en sqlite
+3. Crear base de datos con el nombre de pruebaprimestone esto en mysql y postgres.
+4. Migrar el modelo (python3 manage.py makemigrations) despues (python3 manage.py migrate)
+5. Para el modelo People que se creo se puede realizar el crud completo.
