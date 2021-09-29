@@ -1,7 +1,7 @@
 # Prueba-PrimeStone-Jr
 Prueba primestone
 FUNCIONAMIENTO
-1. Crear y Activar entorno virtual
+1. Crear y Activar entorno virtual: crear(python3 -m virtualen entorno) - Activar(source entorno/bin/activate) esto para linux
 2. Tener un gestor de bases de datos como mysql(instalar mysqlclient), postgres o sino por defecto en sqlite
 3. Tener instalado django y djangorestframework ya que fue el framework en el que se desarrollo la api.
 4. Crear base de datos con el nombre de pruebaprimestone esto en mysql y postgres.
