@@ -75,12 +75,40 @@ WSGI_APPLICATION = 'conectivity.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
+#conexión sqlite3
+"""
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+"""
+#Conexión mysql
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'pruebaprimestone',
+        'USER': 'julian',
+        'PASSWORD': '1002',
+        'HOST': '127.0.0.1',
+        'PORT': 3306,
+    }
+}
+
+#Conexión base de datos postgres sql
+"""
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'database',
+        'USER': 'user',
+        'PASSWORD': 'password',
+        'HOST': '127.0.0.1',
+        'PORT': '',
+    }
+}
+"""
 
 
 # Password validation
