@@ -20,5 +20,6 @@ def getPrimeNumer(request, num):
         if primos == True:
             print(' ',i, end='')
             cont += 1
+    print("Prueba commit")
     #print('\nHay %u números primos.' % cont )
     return HttpResponse("primos {num}")
